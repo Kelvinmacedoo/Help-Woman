@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Help Woman</title>
+
+		
+	<script>
+
+		function funcao1()
+		{	
+			var x;
+			var r=confirm("Você está será redirecionado para o site Figma, onde está localizado o projeto.. confirme para continuar!");;
+			if (r==true)
+				{
+			 		x=alert("Redirecionando..");
+			 	}
+						else
+		 				 {
+						  x="Você pressionou Cancelar!";
+						 }
+			document.getElementById("demo").innerHTML=x;
+}
+
+		function funcao2()
+			{
+			alert("Você está sendo redirecionado para o site Figma, onde está localizado o projeto.. confirme para continuar!");
+			}
+
+	</script>
+
+
+
+	<link rel="icon"
+		  type="image/jpg"
+	      href="HW.png" />
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body style="background-image: url(logo.png);
+			 background-repeat: no-repeat;
+			 background-position: center;
+			 background-attachment: fixed, scroll;
+">
+
+<img src="logo.png" height= "90" width="90"; align="left" style="
+	top:500px;
+	position: absolute;
+	top: 1px;
+	left: 40px;
+"> 
+
+<img src="logo.png" height= "90" width="90"; align="left" style="
+	top:500px;
+	position: absolute;
+	top: 1px;
+	right: 40px;
+"> 
+
+
+
+<h1 align="center" style="font-family: cambria;"> <strong> Help Woman </strong> </h1>
+
+
+
+<br>
+
+
+<div class="nav">
+<table align="center" border="0">
+	<tr>
+		<td style="color:white;"> <a href="index.html" style="color:white"> <em> Início </em> </td>
+			<td></td> <td></td> <td></td> <td></td>
+
+		<td style="color:white"> <a href="projeto.html" style="color:white"> <em> Documentação </em> </td>
+			<td></td> <td></td> <td></td> <td></td>
+
+		<td style="color:white"> <a href="Participantes.html" style="color:white"> <em> Participantes </em> </td>
+			<td></td> <td></td> <td></td> <td></td>
+
+		<td> <a href="https://www.figma.com/proto/5PVZw899wIf0MhJdXKzuX6/PI?node-id=69%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=69%3A2&show-proto-sidebar=1" target="_blank" style="color:white"> 
+				<input type="button" onclick="funcao2()" value="Protótipo" class="link" style="color: white; background-color: #FF66C4; border-style: hidden;">
+		 </td>
+	</tr>
+</table>
+</div>
+
+
+<br>
+
+<br> 
+
+<h4>
+	2. VISÃO GERAL SOBRE A PLATAFORMA HELP-WOMAN - ANÁLISE DE FUNCIONALIDADES <br> <p>
+	Com o intuito de identificar funcionalidades que apresentem um maior impacto ou eficiência no processo de denúncia e combate a atos de violência contra a mulher se realizou uma pesquisa objetiva sobre um determinado grupo de pessoas. A pesquisa realizada alcançou um total de 100 pessoas (homens e mulheres). <br> <p></p>
+
+	A pesquisa aplicada para este trabalho, a qual constou de 15 perguntas objetivas, foi disponibilizada através de um formulário online, o qual foi elaborado utilizado a ferramenta Google Forms e ficou acessível no período compreendido entre os dias do 23 ao 26 de março de 2021. A pesquisa foi direcionada para o público feminino vítima ou não, de violência doméstica ou que já testemunharam alguma forma de violência e aberta também para homens. A pesquisa deixou como opção declarar ou não o sexo, o resultado foi que 40% dos 100 entrevistados se identificaram como mulheres, 16,6% como homens e 43,33% optaram por não identificar o seu sexo, todos responderam a 100% das perguntas apresentadas. <br> <p></p> No gráfico da figura 1 é possível observar alguns resultados da pesquisa de estudos. É possível ver a porcentagem final de cada resultado com suas respectivas perguntas. <p></p>
+</h4>
+
+
+<table align="center">
+	<tr align="center">
+		<td> <img src="grafico1.png"> <legend> <strong> Figura 1 </strong> </legend> </td>
+	</tr>
+</table>
+
+<h4 align="center">Nos resultados do gráfico (figura 1) é possível observar, concluir que 63.3% das pessoas não têm esperanças de que a <br>violência contra a mulher irá diminuir futuramente. E 36.7% acreditam que haverá uma diminuição nos casos de violência. </h4>
+
+<h4>
+	3. ARQUITETURA DO APLICATIVO HELP-WOMAN <br> <p></p>
+	A arquitetura do aplicativo Help Woman é representada em quatro camadas amplamente funcionais e que contribuem para uma melhor organização do código e consequentemente das funcionalidades do aplicativo. Uma representação simplificada da arquitetura é apresentada na figura 2.
+</h4>
+
+<table align="center">
+	<tr align="center">
+		<td> <img src="arquitetura.png"> <legend> <strong> Figura 2 </strong> </legend> </td>
+	</tr>
+</table>
+
+<h4 align="center">
+	O Help Woman é um aplicativo baseado na discrição e segurança do usuário, desenvolvido na linguagem Java<br> em sua primeira versão e exclusivo para dispositivos móveis com o sistema Android.
+	A camada de dados é composta por um banco de dados SQLite, <br>a escolha se deve ao seu bom desempenho em aplicações para dispositivos móveis.
+	Na camada 2 de comunicação com a API de localização para que <br>a vítima seja achada com facilidade e agilidade.	
+	A camada 3 é composta pelo Serviço responsável por gerir e validar o acesso a seu menu principal e suas funções principais.
+</h4>
+
+<h4>
+	4.	FUNCIONALIDADES DO HELP-WOMAN <br> <p></p>
+	Considerando os diversos aplicativos existentes a proposta de desenvolvimento do aplicativo Help Woman procura se diferenciar de outros aplicativos através de funções que incluem aspectos de segurança como, cadastro modo anônimo, SMS para contato de confiança, ligação direta para polícia, telefones uteis para denúncia e que permitam a denúncia de forma discreta e eficaz sem expor a vítima e facilitem o dia a dia destas mulheres. Blog de relatos, como um espaço no qual as vítimas possam compartilhas suas histórias de maneira aberta ou anônima. As funcionalidades são baseadas em recursos interativos que facilitam a usabilidade do seu público para obter um maior engajamento. Uma versão web está em análise para se ser implementada, porém as funcionalidades não serão as mesmas. O aplicativo é dividido em três módulos; Cadastro, Segurança e Alertas. <br> <p></p>
+
+	Módulo de Cadastro: permite um cadastro simplificado e seguro, seja da pessoa vítima de violência ou de qualquer outra pessoa disposta a ajudar. Os dados são tratados e preservados de maneira segura, mantendo sempre a confidencialidade do usuário. <br> <p></p>
+	Módulo de Segurança: este módulo inclui a função “modo anônimo”, a qual permite realizar uma denúncia sem a necessidade de declarar os seus dados. Esta função é útil para as pessoas que são testemunhas da violência sofrida por uma terceira pessoa. Uma outra função é a de acionamento da polícia para pedir socorro em caso de violência. Esta pode ser acionada pela vítima ou uma terceira pessoa, testemunha do ato, mantendo sempre a confidencialidade do denunciante. <br> <p></p>
+
+	Módulo de Alertas: a função SMS permite o envio de SMS para um contato de confiança da vítima no momento de realização da denúncia. A função “Telefones uteis” contém um catálogo de órgãos de segurança e ONGs de apoio à mulher vítima de violência. Finalmente, a função “Blog de relatos”, opera como um ambiente colaborativo e com opções de “anônimo” para as vítimas de violência, conectando-a com outras vítimas, centros de ajuda psicológica e ONGs.
+</h4>
+
+<table align="center" border="0">
+	<tr>
+		<td> <img src="tela_inicial.png"> </td>
+		<td> <img src="menu.png"> </td>
+		<td> <img src="discagem.png"> </td>
+	</tr>
+
+	<tr>  <td align="center" colspan="3"> <strong> Figura 3 </strong> </td>  </tr>
+
+	<tr align="center">
+		<td> Tela Inicial (loading) </td>
+		<td> Menu Principal </td>
+		<td> Tela de Discagem </td>
+	</tr>
+</table>
+
+
+<h4 align="center">
+	Na figura 3 é possível observar a tela inicialização do Help Woman, logo após a tela <br>principal com suas funções e a seguir tela de ligação para polícia que se abre ao clicar na função Polícia na tela principal.
+</h4>
+</span>
+
+
+<details>
+	<summary style="font-family: Arial;"> <h3> 5. Referências Bibliográficas </h3> </summary>
+	<cite>
+<h3>
+	[1]	Denúncias sobre violência feminina - Disponível em: e-gov.br/mmddh. https://www.gov.br/mdh/pt-br. <br> Acessado em: 09 de Março de 2021 <br> <p></p>
+	[2]	Estatística de violência feminina - Disponível em: e-gov.br/mdh.. acessado em: 10 Março de 2021
+	https://www.gov.br/mdh/pt-br/ondh/paineldedadosdaondh/copy_of_dados-atuais-2021 <br>Acessado em: 09 de Março de 2021 <br> <p></p>
+	[3]  “Salve Maria” - Disponível em: https://play.google.com/store/apps/details?id=br.gov.pi.ati.salvemariaapp&hl=pt_BR&gl=US. <br>Acessado em: 15 Setembro de 2021 <br> <p></p>
+	[4]  “Bem Querer Mulher” - Disponível em: https://play.google.com/store/apps/details?id=com.app.p7873HF&hl=pt. <br>Acessado em: 15 Setembro de 2021 <br> <p></p>
+	[5]  “PenhaS” - Disponível em: https://play.google.com/store/apps/details?id=penhas.com.br&hl=pt. <br>Acessado em: 15 Setembro de 2021 <br> <p></p>
+	CRISTINA, Reciane. Violência doméstica contra mulher. JUS. Com.br, 2019. Disponível em: https://jus.com.br/artigos/74965/violencia-domestica-contra-mulher/. <br>Acessado em: 05 de maio de 2021. </h3>
+	</cite>
+</details>
+
+<h4>.</h4>
+
+
+</body>
+</html>
+
