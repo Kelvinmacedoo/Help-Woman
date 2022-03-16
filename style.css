@@ -1,0 +1,118 @@
+
+.texto{
+	font-family: Arial;
+}
+
+.texto2{
+	font-family: Arial;
+}
+
+.texto2::first-letter{
+	font-size: 55px;
+	font-family: serif;
+	float: top-left;
+	margin-right: 1px;
+}
+
+
+#log{
+	padding-top: 50px
+	
+}
+
+.nm_projeto{
+		margin-left: 1%;
+	}
+#6C38D0
+
+
+padding: 10px 20px;
+
+button{
+	font-family: Arial;
+	color: black;
+	border-radius: 10px;
+	border: none;
+	font-size: 12px;
+	padding: 15px;
+	cursor: pointer;
+	cursor: url(C:/Users/Allan/Documents/Facul/HTML/Atividade%201/Atividade%203.html);
+}
+
+
+#tabela{
+	border: transparent;
+}
+
+
+
+#nomes{
+	font-family: Courier, "Lucida Console";
+}
+
+.nav{
+	font-family: Arial;
+	background-color: #FF66C4;
+	width: 1330px;
+	box-shadow: 1px 5px 5px white;
+}
+
+.nav:hover {
+  background: #E160CF;
+  color: black;
+  box-shadow: 1px 5px 5px black;
+}
+
+#botao{
+	margin-left: 525px ;
+	background: #FF66C4	;
+	color: white;
+	border: 2px solid #6C38D0;
+	border-radius: 10px;
+	box-shadow: 1px 5px black;
+	text-shadow: ;
+
+}
+
+#botao:hover {
+	background: #black;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 1px 5px 5px #eee;
+	text-shadow:none;
+}
+
+
+#botaoAC{
+	font-family: Arial;
+	margin-left: 525px ;
+	background: #6C38D0;
+	color: black;
+	border: 2px solid #FF66C4;
+	border-radius: 20px;
+	box-shadow: 1px 1px 50px #FF66C4;
+	
+
+}
+
+#botaoAC:hover {
+	background: black;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 1px 1px 50px black;
+	text-shadow:none;
+}
+
+.link:hover {
+	background: #E160CF;
+}
+
+#textoAC{
+	color: white;
+}
+
+#6C38D0
+
+<span style=" font-size: 90px; font-family: serif; float: top-left; color:white; ">F</span>
