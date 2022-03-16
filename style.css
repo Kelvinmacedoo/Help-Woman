@@ -60,7 +60,7 @@ button{
 .nav:hover {
   background: #E160CF;
   color: black;
-  box-shadow: 1px 5px 20px black;
+  box-shadow: 1px 5px 50px black;
 }
 
 #botao{
@@ -70,7 +70,7 @@ button{
 	border: 2px solid #6C38D0;
 	border-radius: 10px;
 	box-shadow: 1px 5px 10px black;
-	text-shadow: ;
+	text-shadow: 1px 1px 1px black;
 
 }
 
