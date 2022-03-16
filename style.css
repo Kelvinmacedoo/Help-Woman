@@ -12,6 +12,7 @@
 	font-family: serif;
 	float: top-left;
 	margin-right: 1px;
+	color: #FF66C4;
 }
 
 
@@ -112,5 +113,28 @@ button{
 #textoAC{
 	color: white;
 }
+
+
+#botaoAC2{
+	font-family: Arial;
+	margin-left: 525px ;
+	background: #6C38D0;
+	color: black;
+	border: 2px solid #FF66C4;
+	border-radius: 20px;
+	box-shadow: 1px 1px 50px #FF66C4;
+	
+
+}
+
+#botaoAC2:hover {
+	background: black;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 1px 1px 50px white;
+	text-shadow:none;
+}
+
 
 #6C38D0
