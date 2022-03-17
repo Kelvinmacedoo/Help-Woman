@@ -129,13 +129,14 @@ button{
 }
 
 #botaoAC2:hover {
-	background: black;
-	color: #fff;
+	background: white;
+	color: black;
 	border: 1px solid #eee;
 	border-radius: 20px;
 	box-shadow: 1px 1px 50px white;
 	text-shadow:none;
 }
+
 
 
 #6C38D0
