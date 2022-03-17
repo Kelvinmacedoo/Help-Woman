@@ -69,7 +69,7 @@ button{
 	margin-left: 555px ;
 	background: #FF66C4	;
 	color: white;
-	border: 2px solid white;
+	border: 1px solid white;
 	border-radius: 10px;
 	box-shadow: 1px 5px 10px black;
 	text-shadow: 1px 1px 1px black;
@@ -77,8 +77,8 @@ button{
 }
 
 #botao:hover {
-	background: #black;
-	color: #fff;
+	background: white;
+	color: black;
 	border: 1px solid #eee;
 	border-radius: 20px;
 	box-shadow: 1px 5px 40px #eee;
@@ -137,6 +137,13 @@ button{
 	text-shadow:none;
 }
 
-
+#disque{
+	top:5px;
+	position: absolute;
+	top: 3320px;
+	left: 562px;
+	bottom: 100px;
+	filter: drop-shadow(0 0 0.4em white);
+}
 
 #6C38D0
