@@ -146,4 +146,170 @@ button{
 	filter: drop-shadow(0 0 0.4em white);
 }
 
+
+#learn-more {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ background: transparent;
+ padding: 0;
+ font-size: inherit;
+ font-family: inherit;
+}
+
+#learn-more {
+ width: 12rem;
+ height: auto;
+}
+
+#learn-more .circle {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: relative;
+ display: block;
+ margin: 0;
+ width: 1.8rem;
+ height: 3rem;
+ background: #6C38D0;
+ border-radius: 1.625rem;
+}
+
+#learn-more:hover .circle {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: relative;
+ display: block;
+ margin: 0;
+ width: 1.8rem;
+ height: 3rem;
+ background: #FF66C4;
+ border-radius: 1.625rem;
+}
+
+#learn-more .circle .icon {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ margin-left: -0.9rem;
+ background: none;
+}
+
+#learn-more .circle .icon.arrow {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ left: 0.625rem;
+ width: 1.125rem;
+ height: 0.125rem;
+ background: none;
+}
+
+#learn-more .circle .icon.arrow::before {
+ position: absolute;
+ content: "";
+ top: -0.29rem;
+ right: 0.0625rem;
+ width: 0.625rem;
+ height: 0.625rem;
+ border-top: 0.125rem solid #fff;
+ border-right: 0.125rem solid #fff;
+ transform: rotate(45deg);
+}
+
+#learn-more .button-text {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ padding: 0.75rem 0;
+ margin: 0 0 0 1.85rem;
+ color: white;
+ font-weight: 700;
+ line-height: 1.8;
+ text-align: center;
+ text-transform: uppercase;
+ font-family: Arial;
+}
+
+#learn-more:hover .circle {
+ width: 100%;
+}
+
+#learn-more:hover .circle .icon.arrow {
+ background: #fff;
+ transform: translate(1rem, 0);
+}
+
+#learn-more:hover .button-text {
+ color: black;
+}
+
+
+.compartilhe {
+ font-family: inherit;
+ font-weight: 400;
+ background: #FF66C4;
+ color: white;
+ padding: 0.35em 0;
+ font-size: 17px;
+ font-family: Arial;
+ border: none;
+ border-radius: 0.7em;
+ letter-spacing: 0.08em;
+ position: relative;
+ display: flex;
+ align-content: center;
+ align-items: center;
+ overflow: hidden;
+ height: 2.1em;
+ padding-left: 3em;
+ padding-right: 0.7em;
+}
+
+.compartilhe .icon {
+ background: #fff;
+ margin-right: 1em;
+ height: 2.2em;
+ width: 2.2em;
+ border-radius: 2em;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ left: 0.3em;
+ transition: all .8s;
+}
+
+.shere {
+ width: 1.5rem;
+ height: 1.5rem;
+ margin-left: 4px;
+}
+
+.compartilhe:hover .icon {
+ width: calc(100% - 0.6rem);
+ border-radius: 0.5em;
+}
+
+.compartilhe:hover .shere {
+ width: calc(100% - 0.6rem);
+ border-radius: 0.5em;
+ display: none;
+}
+
+.compartilhe .icon-shere {
+ color: #f2295b;
+ width: 1.5rem;
+ height: 1.5rem;
+ display: none;
+}
+
+.compartilhe:hover .icon .icon-shere {
+ display: flex;
+}
+
 #6C38D0
