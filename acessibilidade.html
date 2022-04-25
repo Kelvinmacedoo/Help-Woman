@@ -6,29 +6,7 @@
 	<title>Help Woman</title>
 
 		
-	<script>
-
-		function funcao1()
-		{	
-			var x;
-			var r=confirm("Você está será redirecionado para o site Figma, onde está localizado o projeto.. confirme para continuar!");;
-			if (r==true)
-				{
-			 		x=alert("Redirecionando..");
-			 	}
-						else
-		 				 {
-						  x="Você pressionou Cancelar!";
-						 }
-			document.getElementById("demo").innerHTML=x;
-}
-
-		function funcao2()
-			{
-			alert("Você está sendo redirecionado para o site Figma, onde está localizado o projeto.. confirme para continuar!");
-			}
-
-	</script>
+	<script src="https://unpkg.com/scrollreveal"> </script>
 
 
 
@@ -51,10 +29,10 @@
 		<td style="color:white"> <a title="Documentação da aplicação" href="projeto.html" style="color:white; text-shadow: 1px 1px 1px black;"> <em> Documentação </em> </td>
 			<td></td> <td></td> <td></td> <td></td>
 
-
 		<td style="color:white"> <a title="Site Figma" href="https://www.figma.com/proto/5PVZw899wIf0MhJdXKzuX6/PI?node-id=69%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=69%3A2&show-proto-sidebar=1" target="_blank" style="color:white; text-shadow: 1px 1px 1px black;" > 
-			  <em> Protótipo </em> </td> </a>
-		</td>
+			  <em> Protótipo </em> </td> </a> <td></td> <td></td> <td></td> <td> </td>
+
+		<td style="color:white"> <a title="Produtor" href="produtor.html" style="color:white; text-shadow: 1px 1px 1px black;"> <em> Produtor </em> </td>
 	</tr>
 </table>
 </div>
@@ -64,7 +42,7 @@
 
 
 </head>
-<body bgcolor="black">
+<body class="fundo" bgcolor="black">
 
 <img title="Logo" src="logo.png" height= "90" width="90"; align="left" style="
 	top:500px;
@@ -85,12 +63,12 @@
 <div style="margin-left: 508px; color:white;">
 	<h3> <nav style="font-family: Arial;">
 	  														<a title="Sair do modo acessibilidade (Colorido)" href="projeto.html">
-															<button id="botaoAC2" style="width: 150px; margin-left: 650px;">
+															<button id="botaoAC2" style="width: 150px; height: 50px; margin-left: 650px;">
 															<strong>Sair do modo de acessibilidade</strong>
 															</button>
 															</a>
 
-															<a title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
+															<a class="img" title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
 															<img src="ligue.png" height= "90" width="150"; align="left" style="
 															top:500px;
 															position: absolute;
@@ -103,12 +81,12 @@
 
 
 			<strong style="text-shadow: 1px 1px 1px darkgray; margin-left: 90px;">Sumário do artigo:</strong>
-		  	<ol type="I">
-		    <li><a style="color: white;" href="#1">Visão Geral e Análise de Funcionalidades </a></li>
-		    <li><a style="color: white;" href="#2">Arquitetura do Aplicativo </a></li>
-		    <li><a style="color: white;" href="#3">Funcionalidades </a>
-		    <li><a style="color: white;" href="#telas">Telas do Aplicativo </a></li>
-		    <li><a style="color: white;" href="#4"> Referências Bibliográficas </a></li>
+		  	<ol class="linkAC" type="I">
+		    <li><a class="linkAC"  href="#1">Visão Geral e Análise de Funcionalidades </a></li>
+		    <li><a class="linkAC"  href="#2">Arquitetura do Aplicativo </a></li>
+		    <li><a class="linkAC"  href="#3">Funcionalidades </a>
+		    <li><a class="linkAC"  href="#telas">Telas do Aplicativo </a></li>
+		    <li><a class="linkAC"  href="#4"> Referências Bibliográficas </a></li>
 		  </ol>
 		</nav>
 	</h3>
@@ -118,7 +96,7 @@
 
 <br>	
 
-<div id="textoAC" style=" padding-right: 38px; text-align: center;">
+<div class="part" id="textoAC" style=" padding-right: 38px; text-align: center;">
 <h3  style="font-family: Arial"> 
 	PARTICIPANTES: <br>
  	Arthur Christian Rodriguez Pens, Gustavo da Silva Santos, Kelvin Mateus Macedo Bento, <br>
@@ -140,7 +118,7 @@
 
 <table align="center" style=" font-family: Arial">
 	<tr align="center">
-		<td> <img title="Pesquisa" src="grafico1.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> Figura 1 </strong> </legend> </td>
+		<td> <img class="img" title="Pesquisa" src="grafico1.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> ⇧ Figura 1 ⇧ </strong> </legend> </td>
 	</tr>
 </table>
 
@@ -156,7 +134,7 @@
 
 <table align="center" style="font-family: Arial">
 	<tr align="center">
-		<td> <img title="Arquitetura da aplicação" src="arquitetura.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> Figura 2 </strong> </legend> </td>
+		<td> <img class="img" title="Arquitetura da aplicação" src="arquitetura.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> ⇧ Figura 2 ⇧</strong> </legend> </td>
 	</tr>
 </table>
 
@@ -187,9 +165,9 @@
 	<tr>  <td align="center" colspan="3"> <strong> Figura 3 </strong> </td>  </tr>
 
 	<tr align="center">
-		<td> <strong> Tela Inicial <i>(loading)</i> </strong> </td>
-		<td> <strong> Menu Principal </strong> </td>
-		<td> <strong> Tela de Discagem </strong> </td>
+		<td> <strong> ⇧ Tela Inicial ⇧ <i>(loading)</i> </strong> </td>
+		<td> <strong> ⇧ Menu Principal ⇧ </strong> </td>
+		<td> <strong> ⇧ Tela de Discagem ⇧ </strong> </td>
 	</tr>
 </table>
 
@@ -201,21 +179,21 @@
 </div>
 
 <details id="4">
-	<summary style="color: white; font-family: Arial; padding-left:90px; padding-right: 90px; text-shadow: 1px 1px 10px white;"> <h3> 5. Referências Bibliográficas </h3> </summary> 
+	<summary style="color: white; font-family: Arial; padding-left:90px; padding-right: 90px; text-shadow: 1px 1px 10px white;"> <h3> 4. Referências Bibliográficas ⇩ </h3> </summary> 
 	<cite>
 <h3 style="padding-left:90px; padding-right: 90px;">
-	<a href="https://www.gov.br/mdh/pt-br" target="_blank" style="color:white;">
+	<a class="linkAC" href="https://www.gov.br/mdh/pt-br" target="_blank">
 	[1]	Denúncias sobre violência feminina - Disponível em: e-gov.br/mmddh. https://www.gov.br/mdh/pt-br. <br> Acessado em: 09 de Março de 2021 </a> <br> <p></p>
-	<a href="https://www.gov.br/mdh/pt-br/ondh/painel-de-dados/de-jul-2020-a-dez-2021" target="_blank" style="color:white;">
+	<a class="link2AC" href="https://www.gov.br/mdh/pt-br/ondh/painel-de-dados/de-jul-2020-a-dez-2021" target="_blank">
 	[2]	Estatística de violência feminina - Disponível em: e-gov.br/mdh. acessado em: 10 Março de 2021
 	https://www.gov.br/mdh/pt-br/ondh/paineldedadosdaondh/copy_of_dados-atuais-2021 <br>Acessado em: 09 de Março de 2021 </a> <br> <p></p> 
-	<a href="https://play.google.com/store/apps/details?id=br.gov.pi.ati.salvemariaapp&hl=pt_BR&gl=US" target="_blank" style="color:white;">
+	<a class="linkAC" href="https://play.google.com/store/apps/details?id=br.gov.pi.ati.salvemariaapp&hl=pt_BR&gl=US" target="_blank">
 	[3]  “Salve Maria” - Disponível em: https://play.google.com/store/apps/details?id=br.gov.pi.ati.salvemariaapp&hl=pt_BR&gl=US. <br>Acessado em: 15 Setembro de 2021 </a> <br> <p></p> 
-	<a href="https://play.google.com/store/apps/details?id=com.app.p7873HF&hl=pt" target="_blank" style="color:white;">
+	<a class="link2AC" href="https://play.google.com/store/apps/details?id=com.app.p7873HF&hl=pt" target="_blank">
 	[4]  “Bem Querer Mulher” - Disponível em: https://play.google.com/store/apps/details?id=com.app.p7873HF&hl=pt. <br>Acessado em: 15 Setembro de 2021 </a> <br> <p></p>
-	<a href="https://play.google.com/store/apps/details?id=penhas.com.br&hl=pt" target="_blank" style="color:white;">
+	<a class="linkAC" href="https://play.google.com/store/apps/details?id=penhas.com.br&hl=pt" target="_blank">
 	[5]  “PenhaS” - Disponível em: https://play.google.com/store/apps/details?id=penhas.com.br&hl=pt. <br>Acessado em: 15 Setembro de 2021 </a> <br> <p></p>
-	<a href="https://jus.com.br/artigos/74965/violencia-domestica-contra-mulher/" target="_blank" style="color:white;">
+	<a class="link2AC" href="https://jus.com.br/artigos/74965/violencia-domestica-contra-mulher/" target="_blank">
 	CRISTINA, Reciane. Violência doméstica contra mulher. JUS. Com.br, 2019. Disponível em: https://jus.com.br/artigos/74965/violencia-domestica-contra-mulher/. <br>Acessado em: 05 de maio de 2021. </a> </h3>
 	</cite>
 
@@ -231,5 +209,23 @@
 
 
 </body>
+
+<script>
+	window.sr = ScrollReveal();
+
+		sr.reveal(".fundo");
+		sr.reveal("#botaoAC");
+		sr.reveal(".part");
+		sr.reveal("#4");
+		sr.reveal("#2");
+		sr.reveal("#telas");
+		sr.reveal("#3");
+		sr.reveal(".img");
+		sr.reveal(".sum");
+		sr.reveal(".nav");
+		sr.reveal("#disque");
+		sr.reveal(".linkAC");
+
+</script>
 </html>
 
