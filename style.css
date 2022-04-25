@@ -1,3 +1,106 @@
+.ligue{
+  top:500px;
+  position: absolute;
+  top: 120px;
+  right: 39px;
+  filter: drop-shadow(0 0 0.4em #FF66C4);
+
+}
+
+.denuncia{
+  top:5px;
+  position: absolute;
+  top: 1055px;
+  left: 562px;
+  bottom: 100px;
+  filter: drop-shadow(0 0 0.4em white);
+}
+
+.texto3{
+  font-family: Arial;
+  color:white;
+  padding-left:90px;
+  padding-right: 90px;
+  text-shadow: 1px 1px 5px black
+}
+
+.texto2{
+  font-family: Arial;
+  color:white;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 50px;
+  text-shadow: 1px 1px 5px black;
+}
+
+
+.citacao{
+  color:white;
+  font-family: Arial;
+  width: 500px;
+  height: 150px;
+  margin-left: 800px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.textoDoc{
+  padding-left:90px;
+  padding-right: 90px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.RestoTexto{
+  font-family: Arial;
+  padding-left:90px;
+  padding-right: 90px;
+  text-shadow: 1px 1px 1px darkgray;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .texto2{
+      padding-top: 105px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .texto3{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .textoDoc{
+      padding-top: 105px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    
+    .citacao {
+      padding-left: 100px;
+      padding-right: 10px;
+      }
+  
+
+    .ligue{
+      left: 150px;
+      padding-top: 90px;
+    }
+
+    #learn-more{
+    margin-left: 250px;
+    background-color: red;
+    }
+}
+
 
 .texto{
 	font-family: Arial;
@@ -55,15 +158,40 @@ button{
 .nav{
 	font-family: Arial;
 	background-color: #FF66C4;
-	width: 1330px;
-	box-shadow: 1px 5px 50px white;
+	width: 100%;
+	filter: drop-shadow(0 0 0.4em #FF66C4);
+  
 }
 
+
+
+
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+
+
 .nav:hover {
-  background: #E160CF;
+  color: black;
+  box-shadow: 1px 5px 50px white;
+}
+
+
+.navAC{
+  font-family: Arial;
+  background-color: #FF66C4;
+  width: 1330px;
+  filter: drop-shadow(0 0 0.4em #FF66C4);
+}
+
+.navAC:hover {
   color: black;
   box-shadow: 1px 5px 50px black;
 }
+
 
 #botao{
 	margin-left: 555px ;
@@ -87,28 +215,85 @@ button{
 
 
 #botaoAC{
-	font-family: Arial;
-	margin-left: 525px ;
-	background: #6C38D0;
-	color: black;
-	border: 2px solid #FF66C4;
-	border-radius: 20px;
-	box-shadow: 1px 1px 50px #FF66C4;
+ --glow-color: #FF66C4;
+ --glow-spread-color: #6C38D0;
+ --enhanced-glow-color: #6C38D0;
+ --btn-color: #6C38D0;
+ border: .1em solid var(--glow-color);
+ padding: 0em 1em;
+ color: white;
+ font-size: 14px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow:  1px 1px 50px var(--glow-color),
+              1px 1px 40px var(--glow-spread-color),
+              1px 1px 50px var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+}
 	
 
-}
 
 #botaoAC:hover {
 	background: black;
-	color: #fff;
-	border: 1px solid #eee;
-	border-radius: 20px;
-	box-shadow: 1px 1px 50px black;
-	text-shadow:none;
+  color: white;
+  border: .1em solid #FF66C4;
+  border-radius: 1em;
+  box-shadow: 1px 1px 50px black;
+  text-shadow:none;
+}
+
+.ref{
+  color:black;
+  text-shadow: 1px 1px 5px #FF66C4;
+}
+
+.ref:hover{
+  color: white;
+}
+
+.link {
+  color: black;
+
 }
 
 .link:hover {
-	background: #E160CF;
+	color: #FF66C4;
+  filter: drop-shadow(0 0 0.4em #FF66C4);
+}
+
+.link2 {
+  color: black;
+
+}
+
+.link2:hover {
+  color: #6C38D0;
+  filter: drop-shadow(0 0 0.4em #6C38D0);
+}
+
+
+.linkAC {
+  color: white;
+
+}
+
+.linkAC:hover {
+  color: #FF66C4;
+  filter: drop-shadow(0 0 0.4em #FF66C4);
+}
+
+.link2AC {
+  color: white;
+
+}
+
+.link2AC:hover {
+  color: #6C38D0;
+  filter: drop-shadow(0 0 0.4em #6C38D0);
 }
 
 #textoAC{
@@ -117,24 +302,35 @@ button{
 
 
 #botaoAC2{
-	font-family: Arial;
-	margin-left: 525px ;
-	background: #6C38D0;
-	color: black;
-	border: 2px solid #FF66C4;
-	border-radius: 20px;
-	box-shadow: 1px 1px 50px #FF66C4;
+ --glow-color: #FF66C4;
+ --glow-spread-color: #6C38D0;
+ --enhanced-glow-color: #6C38D0;
+ --btn-color: #6C38D0;
+ border: .1em solid var(--glow-color);
+ padding: 0em 1em;
+ color: white;
+ font-size: 14px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow:  1px 1px 50px var(--glow-color),
+              1px 1px 40px var(--glow-spread-color),
+              1px 1px 50px var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
 	
 
 }
 
 #botaoAC2:hover {
-	background: white;
-	color: black;
-	border: 1px solid #eee;
-	border-radius: 20px;
-	box-shadow: 1px 1px 50px white;
-	text-shadow:none;
+  background: white;
+  color: black;
+  border: .1em solid #FF66C4;
+  border-radius: 1em;
+  box-shadow: 1px 1px 50px white;
+  text-shadow:none;
 }
 
 #disque{
@@ -159,6 +355,7 @@ button{
  padding: 0;
  font-size: inherit;
  font-family: inherit;
+ margin-left: 555px;
 }
 
 #learn-more {
@@ -268,6 +465,7 @@ button{
  height: 2.1em;
  padding-left: 3em;
  padding-right: 0.7em;
+
 }
 
 .compartilhe .icon {
@@ -312,4 +510,67 @@ button{
  display: flex;
 }
 
-#6C38D0
+.part{
+  padding-right: 38px;
+  text-align: center;
+  text-shadow: 1px 1px 1px darkgray;
+}
+
+
+.wrapper{
+  width: 710px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  margin-top: 250px;
+  text-shadow: 1px 1px 5px black;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+
+}
+
+.ds{
+  background-image:
+  linear-gradient(to right, #6C38D0, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 46ch;
+  animation: typing 2s steps(40), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+
+@keyframes blink{
+  50%{
+    border-color: transparent;
+  }
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 90px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #FF66C4;
+    border-radius: 50px;
+
