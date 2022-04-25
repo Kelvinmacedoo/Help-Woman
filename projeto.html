@@ -5,32 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Help Woman</title>
 
-		
-	<script>
-
-		function funcao1()
-		{	
-			var x;
-			var r=confirm("Você está será redirecionado para o site Figma, onde está localizado o projeto.. confirme para continuar!");;
-			if (r==true)
-				{
-			 		x=alert("Redirecionando..");
-			 	}
-						else
-		 				 {
-						  x="Você pressionou Cancelar!";
-						 }
-			document.getElementById("demo").innerHTML=x;
-}
-
-		function funcao2()
-			{
-			alert("Você está sendo redirecionado para o site Figma, onde está localizado o projeto.. confirme para continuar!");
-			}
-
-	</script>
-
-
+	<script src="https://unpkg.com/scrollreveal"> </script>
 
 	<link rel="icon"
 		  type="image/jpg"
@@ -51,10 +26,10 @@
 		<td style="color:white"> <a title="Documentação da aplicação" href="projeto.html" style="color:white; text-shadow: 1px 1px 1px black;"> <em> Documentação </em> </td>
 			<td></td> <td></td> <td></td> <td></td>
 
-
 		<td style="color:white"> <a title="Site Figma" href="https://www.figma.com/proto/5PVZw899wIf0MhJdXKzuX6/PI?node-id=69%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=69%3A2&show-proto-sidebar=1" target="_blank" style="color:white; text-shadow: 1px 1px 1px black;" > 
-			  <em> Protótipo </em> </td> </a>
-		</td>
+			  <em> Protótipo </em> </td> </a> <td></td> <td></td> <td></td> <td> </td>
+
+		<td style="color:white"> <a title="Produtor" href="produtor.html" style="color:white; text-shadow: 1px 1px 1px black;"> <em> Produtor </em> </td>
 	</tr>
 </table>
 </div>
@@ -64,7 +39,7 @@
 
 
 </head>
-<body style="background-image: url(logo.png);
+<body class="fundo" style="background-image: url(logo.png);
 			 background-repeat: no-repeat;
 			 background-position: center;
 			 background-attachment: fixed, scroll;
@@ -89,15 +64,15 @@
 
 
 
-<div style="margin-left: 508px;">
+<div class="sum" style="margin-left: 508px;">
 	<h3> <nav style="font-family: Arial;">
 	  														<a title="Entrar no modo acessibilidade (Preto e branco)" href="acessibilidade.html">
-															<button id="botaoAC" style="width: 150px; margin-left: 650px;">
+															<button id="botaoAC"style="width:150px; height: 50px; margin-left: 650px;">
 															<strong> Modo de acessibilidade</strong>
 															</button>
 															</a>
 
-															<a title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
+															<a class="img" title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
 															<img src="ligue.png" height= "90" width="150"; align="left" style="
 															top:500px;
 															position: absolute;
@@ -107,15 +82,14 @@
 															">
 															</a>
 
-
-
-			<strong style="text-shadow: 1px 1px 1px darkgray; margin-left: 90px;">Sumário do artigo:</strong>
-		  	<ol type="I">
-		    <li><a style="color: black;" href="#1">Visão Geral e Análise de Funcionalidades </a></li>
-		    <li><a style="color: black;" href="#2">Arquitetura do Aplicativo </a></li>
-		    <li><a style="color: black;" href="#3">Funcionalidades </a>
-		    <li><a style="color: black;" href="#telas">Telas do Aplicativo </a></li>
-		    <li><a style="color: black;" href="#4"> Referências Bibliográficas </a></li>
+			
+			<strong> Sumário do artigo:</strong>
+		  	<ol class="link" type="I">
+		    <li><a class="link2" style="color: black;" href="#1">Visão Geral e Análise de Funcionalidades </a></li>
+		    <li><a class="link2" style="color: black;" href="#2">Arquitetura do Aplicativo </a></li>
+		    <li><a class="link2" style="color: black;" href="#3">Funcionalidades </a>
+		    <li><a class="link2" style="color: black;" href="#telas">Telas do Aplicativo </a></li>
+		    <li><a class="link2" style="color: black;" href="#4"> Referências Bibliográficas </a></li>
 		  </ol>
 		</nav>
 	</h3>
@@ -125,7 +99,7 @@
 
 
 
-<div style=" padding-right: 38px; text-align: center; text-shadow: 1px 1px 1px darkgray;">
+<div class="part">
 <h3  style="font-family: Arial"> 
 	PARTICIPANTES: <br>
  	Arthur Christian Rodriguez Pens, Gustavo da Silva Santos, Kelvin Mateus Macedo Bento, <br>
@@ -136,7 +110,7 @@
 </div>
 <br>    
 
-<div style="padding-left:90px; padding-right: 90px;">
+<div class="textoDoc">
 <h4 id="1" style="font-family: Arial; text-shadow: 1px 1px 1px darkgray;">
 	1. VISÃO GERAL SOBRE A PLATAFORMA HELP-WOMAN - ANÁLISE DE FUNCIONALIDADES </h4> 
 
@@ -147,40 +121,43 @@
 </h4>
 </div>
 
+<div class="textoDoc">
 <table align="center" style=" font-family: Arial">
 	<tr align="center">
-		<td> <img title="Pesquisa" src="grafico1.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> Figura 1 </strong> </legend> </td>
+		<td> <img class="img" title="Pesquisa" src="grafico1.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> ⇧ Figura 1 ⇧</strong> </legend> </td>
 	</tr>
 </table>
 
 <h4 align="center" style="font-family: Arial; padding-left:90px; padding-right: 90px;">
 	Nos resultados do gráfico (figura 1) é possível observar, concluir que 63.3% das pessoas não têm esperanças de que a <br>violência contra a mulher irá diminuir futuramente. E 36.7% acreditam que haverá uma diminuição nos casos de violência. </h4>
 
-<div style="padding-left:90px; padding-right: 90px;">
+
 <h4 id="2" style="font-family: Arial; text-shadow: 1px 1px 1px darkgray;">
 	2. ARQUITETURA DO APLICATIVO HELP-WOMAN </h4>
 
 <h4 style="font-family: Arial;">
 	A arquitetura do aplicativo Help Woman é representada em quatro camadas amplamente funcionais e que contribuem para uma melhor organização do código e consequentemente das funcionalidades do aplicativo. Uma representação simplificada da arquitetura é apresentada na figura 2.
 </h4>
-</div>
+
 
 <table align="center" style="font-family: Arial">
 	<tr align="center">
-		<td> <img title="Arquitetura da aplicação" src="arquitetura.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> Figura 2 </strong> </legend> </td>
+		<td> <img class="img" title="Arquitetura da aplicação" src="arquitetura.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> ⇧ Figura 2 ⇧</strong> </legend> </td>
 	</tr>
 </table>
+</div>
 
-<h4 align="center" style="font-family: Arial; padding-left:90px; padding-right: 90px;">
+<div class="RestoTexto">
+<h4 align="center">
 	O Help Woman é um aplicativo baseado na discrição e segurança do usuário, desenvolvido na linguagem Java<br> em sua primeira versão e exclusivo para dispositivos móveis com o sistema Android.
 	A camada de dados é composta por um banco de dados SQLite, <br>a escolha se deve ao seu bom desempenho em aplicações para dispositivos móveis.
 	Na camada 2 de comunicação com a API de localização para que <br>a vítima seja achada com facilidade e agilidade.	
 	A camada 3 é composta pelo Serviço responsável por gerir e validar o acesso a seu menu principal e suas funções principais.
 </h4>
 
-<h4 id="3" style="font-family: Arial; padding-left:90px; padding-right: 90px; text-shadow: 1px 1px 1px darkgray;">
+<h4 id="3">
 	3.	FUNCIONALIDADES DO HELP-WOMAN </h4>
-<h4 style="font-family: Arial; padding-left:90px; padding-right: 90px;">
+<h4>
 	Considerando os diversos aplicativos existentes a proposta de desenvolvimento do aplicativo Help Woman procura se diferenciar de outros aplicativos através de funções que incluem aspectos de segurança como, cadastro modo anônimo, SMS para contato de confiança, ligação direta para polícia, telefones uteis para denúncia e que permitam a denúncia de forma discreta e eficaz sem expor a vítima e facilitem o dia a dia destas mulheres. Blog de relatos, como um espaço no qual as vítimas possam compartilhas suas histórias de maneira aberta ou anônima. As funcionalidades são baseadas em recursos interativos que facilitam a usabilidade do seu público para obter um maior engajamento. Uma versão web está em análise para se ser implementada, porém as funcionalidades não serão as mesmas. O aplicativo é dividido em três módulos; Cadastro, Segurança e Alertas. <br> <p></p>
 
 	Módulo de Cadastro: permite um cadastro simplificado e seguro, seja da pessoa vítima de violência ou de qualquer outra pessoa disposta a ajudar. Os dados são tratados e preservados de maneira segura, mantendo sempre a confidencialidade do usuário. <br> <p></p>
@@ -188,6 +165,7 @@
 
 	Módulo de Alertas: a função SMS permite o envio de SMS para um contato de confiança da vítima no momento de realização da denúncia. A função “Telefones uteis” contém um catálogo de órgãos de segurança e ONGs de apoio à mulher vítima de violência. Finalmente, a função “Blog de relatos”, opera como um ambiente colaborativo e com opções de “anônimo” para as vítimas de violência, conectando-a com outras vítimas, centros de ajuda psicológica e ONGs.
 </h4>
+
 
 <table id="telas" align="center" border="0" style="font-family: Arial">
 	<tr>
@@ -199,9 +177,9 @@
 	<tr>  <td align="center" colspan="3"> <strong style="text-shadow: 1px 1px 1px darkgray;"> Figura 3 </strong> </td>  </tr>
 
 	<tr align="center">
-		<td> <strong> Tela Inicial <i>(loading)</i> </strong> </td>
-		<td> <strong> Menu Principal </strong> </td>
-		<td> <strong> Tela de Discagem </strong> </td>
+		<td> <strong> ⇧  Tela Inicial <i>(loading)</i> ⇧ </strong> </td>
+		<td> <strong> ⇧  Menu Principal ⇧ </strong> </td>
+		<td> <strong> ⇧ Tela de Discagem ⇧ </strong> </td>
 	</tr>
 </table>
 
@@ -210,29 +188,31 @@
 	Na figura 3 é possível observar a tela inicialização do Help Woman, logo após a tela <br>principal com suas funções e a seguir tela de ligação para polícia que se abre ao clicar na função Polícia na tela principal.
 </h4>
 </span>
+</div>
 
 
 <details id="4">
-	<summary style="font-family: Arial; padding-left:90px; padding-right: 90px; text-shadow: 1px 1px 1px darkgray"> <h3> 5. Referências Bibliográficas </h3> </summary>
+	<summary style="
+	font-family: Arial; padding-left:90px; padding-right: 90px; text-shadow: 1px 1px 1px darkgray"> <h3> 4. Referências Bibliográficas ⇩</h3> </summary>
 	<cite>
 <h3 style="padding-left:90px; padding-right: 90px;">
-	<a href="https://www.gov.br/mdh/pt-br" target="_blank" style="color:black;">
+	<a class="link" href="https://www.gov.br/mdh/pt-br" target="_blank">
 	[1]	Denúncias sobre violência feminina - Disponível em: e-gov.br/mmddh. https://www.gov.br/mdh/pt-br. <br> Acessado em: 09 de Março de 2021 </a> <br> <p></p>
-	<a href="https://www.gov.br/mdh/pt-br/ondh/painel-de-dados/de-jul-2020-a-dez-2021" target="_blank"  style="color:black;">
+	<a class="link2" href="https://www.gov.br/mdh/pt-br/ondh/painel-de-dados/de-jul-2020-a-dez-2021" target="_blank">
 	[2]	Estatística de violência feminina - Disponível em: e-gov.br/mdh. acessado em: 10 Março de 2021
 	https://www.gov.br/mdh/pt-br/ondh/paineldedadosdaondh/copy_of_dados-atuais-2021 <br>Acessado em: 09 de Março de 2021 </a> <br> <p></p> 
-	<a href="https://play.google.com/store/apps/details?id=br.gov.pi.ati.salvemariaapp&hl=pt_BR&gl=US" target="_blank" style="color:black;">
+	<a class="link" href="https://play.google.com/store/apps/details?id=br.gov.pi.ati.salvemariaapp&hl=pt_BR&gl=US" target="_blank">
 	[3]  “Salve Maria” - Disponível em: https://play.google.com/store/apps/details?id=br.gov.pi.ati.salvemariaapp&hl=pt_BR&gl=US. <br>Acessado em: 15 Setembro de 2021 </a> <br> <p></p> 
-	<a href="https://play.google.com/store/apps/details?id=com.app.p7873HF&hl=pt" target="_blank" style="color:black;">
+	<a class="link2" href="https://play.google.com/store/apps/details?id=com.app.p7873HF&hl=pt" target="_blank">
 	[4]  “Bem Querer Mulher” - Disponível em: https://play.google.com/store/apps/details?id=com.app.p7873HF&hl=pt. <br>Acessado em: 15 Setembro de 2021 </a> <br> <p></p>
-	<a href="https://play.google.com/store/apps/details?id=penhas.com.br&hl=pt" target="_blank" style="color:black;">
+	<a class="link" href="https://play.google.com/store/apps/details?id=penhas.com.br&hl=pt" target="_blank">
 	[5]  “PenhaS” - Disponível em: https://play.google.com/store/apps/details?id=penhas.com.br&hl=pt. <br>Acessado em: 15 Setembro de 2021 </a> <br> <p></p>
-	<a href="https://jus.com.br/artigos/74965/violencia-domestica-contra-mulher/" target="_blank" style="color:black;">
+	<a class="link2" href="https://jus.com.br/artigos/74965/violencia-domestica-contra-mulher/" target="_blank">
 	CRISTINA, Reciane. Violência doméstica contra mulher. JUS. Com.br, 2019. Disponível em: https://jus.com.br/artigos/74965/violencia-domestica-contra-mulher/. <br>Acessado em: 05 de maio de 2021. </a> </h3>
 	</cite>
 
 <a title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
-<img src="disque.png" height= "150" width="220"; align="left" style="
+<img class="img" src="disque.png" height= "150" width="220"; align="left" style="
 	top:5px;
 	position: absolute;
 	top: 3240px;
@@ -245,9 +225,23 @@
 </details>
 
 
-
-
-
 </body>
+
+<script>
+	window.sr = ScrollReveal();
+
+		sr.reveal(".fundo");
+		sr.reveal("#botaoAC");
+		sr.reveal(".part");
+		sr.reveal("#4");
+		sr.reveal("#2");
+		sr.reveal("#telas");
+		sr.reveal("#3");
+		sr.reveal(".img");
+		sr.reveal(".sum");
+		sr.reveal(".nav");
+
+</script>
+
 </html>
 
