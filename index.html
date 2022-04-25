@@ -5,29 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Help Woman</title>
 
-	<script>
-
-		function funcao1()
-		{	
-			var x;
-			var r=confirm("Você está será redirecionado para o site Figma, onde está localizado o projeto.. confirme para continuar!");;
-			if (r==true)
-				{
-			 		x=alert("Redirecionando..");
-			 	}
-						else
-		 				 {
-						  x="Você pressionou Cancelar!";
-						 }
-			document.getElementById("demo").innerHTML=x;
-}
-
-		function funcao2()
-			{
-			alert("Você está sendo redirecionado para o site Figma, onde está localizado o projeto.. confirme para continuar!");
-			}
-
-	</script>
+	<script src="https://unpkg.com/scrollreveal"> </script>
 
 
 
@@ -38,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 
-<h1 title="Traduzindo do inglês: ajuda para mulher" align="center" style="font-family: cambria; text-shadow: 1px 1px 10px #FF66C4;"> <strong> Help Woman </strong> </h1>
+<h1 class="1" title="Traduzindo do inglês: ajuda para mulher" align="center" style="font-family: cambria; text-shadow: 1px 1px 10px #FF66C4;"> <strong> Help Woman </strong> </h1>
 
 <div class="nav">
 <table align="center" border="0">
@@ -49,10 +27,10 @@
 		<td style="color:white"> <a title="Documentação da aplicação" href="projeto.html" style="color:white; text-shadow: 1px 1px 1px black;"> <em> Documentação </em> </td>
 			<td></td> <td></td> <td></td> <td></td>
 
-
 		<td style="color:white"> <a title="Site Figma" href="https://www.figma.com/proto/5PVZw899wIf0MhJdXKzuX6/PI?node-id=69%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=69%3A2&show-proto-sidebar=1" target="_blank" style="color:white; text-shadow: 1px 1px 1px black;" > 
-			  <em> Protótipo </em> </td> </a>
-		</td>
+			  <em> Protótipo </em> </td> </a> <td></td> <td></td> <td></td> <td> </td>
+
+		<td style="color:white"> <a title="Produtor" href="produtor.html" style="color:white; text-shadow: 1px 1px 1px black;"> <em> Produtor </em> </td>
 	</tr>
 </table>
 </div>
@@ -61,11 +39,12 @@
 
 </head>
 
-<body bgcolor="#6C38D0" style="background-image: url(logo2.png);
+<body class="fundo" bgcolor="#6C38D0" style="background-image: url(logo2.png);
 			 background-repeat: no-repeat;
 			 background-position: center;
 			 background-attachment: fixed, scroll;
 			 visibility: 50%;
+			 background-color: linear-gradient(to top left, #6c38d0 0%, #ff66c4 100%);
 "> 
 
 <img title="Logo" src="logo1.png" height= "90" width="90"; align="left" style="
@@ -81,7 +60,7 @@
 	position: absolute;
 	top: 1px;
 	left: 40px;
-	filter: drop-shadow(0 0 0.4em #FF66C4); 
+	filter: drop-shadow(0 0 0.4em #FF66C4);
 "> 
 
 <br> <br> <br> 
@@ -92,17 +71,13 @@
 	 </a>
 	</marquee>
 
+<div class="ligue">
 <a title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
-<img src="ligue.png" height= "100" width="180"; align="left" style="
-	top:500px;
-	position: absolute;
-	top: 120px;
-	right: 39px;
-	filter: drop-shadow(0 0 0.4em #FF66C4);
-">
+<img src="ligue.png" height= "100" width="180"; align="left">
 </a>
+</div>
 
-<div class="texto2" style="font-family: Arial;; color:white; padding-left:90px; padding-right: 90px; text-shadow: 1px 1px 5px black">	
+<div class="texto2">	
 <h3 align="center">
 		
 	    Foi confirmado que 72% das denúncias são referentes à violência doméstica e familiar contra a mulher causam diversos tipos de impactos na vida das
@@ -112,14 +87,14 @@
 </h3>
 </div>
 
-<div style="color:white; font-family: Arial; padding-left:754px; padding-right: 90px; text-shadow: 1px 1px 5px black">
+<div class="citacao">
 <h4> 
 	A cultura da violência doméstica decorre das desigualdades no exercício do poder, levando assim, uma relação de “dominante e dominado”, que apesar de se obter avanços na equiparação entre homens e mulheres, a ideologia patriarcal aindavigora, e a desigualdade sociocultural é uma das principais razões da discriminação feminina. (DIAS, 2007, P.15-16).
 </h4>
 </div>
 
 
-<div style="font-family: Arial;; color:white; padding-left:90px; padding-right: 90px; text-shadow: 1px 1px 5px black" align="center">
+<div class="texto3" align="center">
 	<h3>
 	Atualmente, existem um número cada vez maior de iniciativas que exploram o uso da tecnologia no desenvolvimento de ferramentas para que auxiliem de maneira discreta e eficiente as mulheres que sofrem violência seja em ambiente doméstico ou de trabalho, podendo citar: Salve Maria [3], Bem Querer Mulher [4], PenhaS [5] entre outros. O propósito destes aplicativos ou ferramentas de software é ajudar na denúncia de casos de agressão, oferecer redes de apoio e informar às vítimas para que elas procurem por amparo legal. Cada um dessas aplicações abrangem um certo território específico (cidade/estado), já o HW tem o objetivo de ser ser usado em todo território nacional pois terá a função de localização e após o usuário fazer o seu cadastro e selecionar em qual estado ela se encontra, o nosso banco de dados atualiza automaticamente os números de emergência tais como o da Polícia, Delegacia da Mulher etc. <p>
 
@@ -130,7 +105,7 @@
 
 
 <a href="projeto.html">
-<button id="learn-more" style="margin-left: 555px;">
+<button id="learn-more">
   <span class="circle" aria-hidden="true">
   <span class="icon arrow"></span>
   </span>
@@ -143,15 +118,9 @@
 	Obs: Os dados citados acima estão para a consulta nas <u> <cite> <a style="color:black; text-shadow: 1px 1px 5px #FF66C4;" href="https://kelvinmacedoo.github.io/Help-Woman/projeto.html#4"> Referências Bibliográficas </cite>. </u> </a>
 </h4>
 
+
 <a href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
-<img alt="Imagem de Denuncia" title="Visite o IMP (Instituto Maria da Penha)" src="disque.png" height= "150" width="220"; align="left"  style="
-	top:5px;
-	position: absolute;
-	top: 955px;
-	left: 562px;
-	bottom: 100px;
-	filter: drop-shadow(0 0 0.4em white); bit.ly/3wbCrLt
-">
+<img class="denuncia" alt="Imagem de Denuncia" title="Visite o IMP (Instituto Maria da Penha)" src="disque.png" height= "150" width="220">
 </a>
 
 <button class="compartilhe" title="Compartilhe no Whatsapp e Telegram">
@@ -180,5 +149,19 @@
 
 
 
+
+
 </body>
+
+<script>
+	window.sr = ScrollReveal();
+
+		sr.reveal(".compartilhe");
+		sr.reveal(".1");
+		sr.reveal(".fundo");
+		sr.reveal(".denuncia");
+		
+
+</script>
+
 </html>
