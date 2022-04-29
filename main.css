@@ -1,0 +1,79 @@
+.fundo{
+    position: fixed;
+    left: 320px;
+    top: 50px;
+    height: 100vh;
+    background-image: url(logo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed, scroll;
+    background-color: rgba(128, 0, 128, 0.178);
+ }
+
+.card{
+    width: 320px;
+    padding-left: 2px;
+    margin-bottom: 2px;
+    border: hidden;
+    backdrop-filter: blur(17px) saturate(196%);
+    -webkit-backdrop-filter: blur(17px) saturate(196%);
+    background-color: rgba(17, 25, 40, 0.88);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    
+}
+
+.card-body{
+    background-color: #6C38D0;
+    border-radius: 1px;
+    border: none;
+}
+
+.col-sm-6{
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 1px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: hidden;
+}
+
+.row{
+    color: white;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+#botao{
+    background-color: #FF66C4;
+    border-color: transparent;
+    border: none;
+
+}
+
+.texto{
+    font-family: monospace;
+    padding-top: 10px;
+    color: black;
+    background-color: transparent;
+}
+
+.vidro{
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+.nav{
+	font-family: Arial;
+	background-color: #FF66C4;
+	width: 100%;
+	filter: drop-shadow(0 0 0.4em #FF66C4);
+  
+}
+
+.nav:hover {
+  color: black;
+  box-shadow: 1px 5px 50px white;
+}
