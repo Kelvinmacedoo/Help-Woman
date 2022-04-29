@@ -1,3 +1,29 @@
+.titulo{
+  font-family: cambria; 
+  text-shadow: 1px 1px 10px #FF66C4;
+  text-decoration: underline;
+}
+
+
+.botao-whatsapp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  left: 5px;
+  top: 800px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 45px;
+  box-shadow: 2px 2px 3px #888;
+  z-index: 100;
+}
+
+.fa-whatsapp{
+  margin-top: 5px;
+}
+
 .ligue{
   top:500px;
   position: absolute;
@@ -10,7 +36,7 @@
 .denuncia{
   top:5px;
   position: absolute;
-  top: 1055px;
+  top: 945px;
   left: 562px;
   bottom: 100px;
   filter: drop-shadow(0 0 0.4em white);
@@ -45,12 +71,27 @@
   text-shadow: 1px 1px 5px black;
 }
 
+.vidro{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.vidro2{
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.vidro3{
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+
 .textoDoc{
   padding-left:90px;
   padding-right: 90px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
 }
 
 .RestoTexto{
@@ -58,9 +99,6 @@
   padding-left:90px;
   padding-right: 90px;
   text-shadow: 1px 1px 1px darkgray;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
 }
 
 
@@ -84,15 +122,10 @@
       padding-right: 10px;
     }
     
-    .citacao {
-      padding-left: 100px;
-      padding-right: 10px;
-      }
-  
 
     .ligue{
       left: 150px;
-      padding-top: 90px;
+      padding-top: 1px;
     }
 
     #learn-more{
@@ -128,10 +161,8 @@
 .nm_projeto{
 		margin-left: 1%;
 	}
-#6C38D0
 
-
-padding: 10px 20px;
+/*#6C38D0 = Roxo */
 
 button{
 	font-family: Arial;
@@ -163,20 +194,18 @@ button{
   
 }
 
+.nav:hover {
+  color: black;
+  box-shadow: 1px 5px 50px white;
+}
 
-
-
+.nav:focus{
+  background-color: orange;
+}
 
 html{
   scroll-behavior: smooth;
 
-}
-
-
-
-.nav:hover {
-  color: black;
-  box-shadow: 1px 5px 50px white;
 }
 
 
@@ -248,11 +277,10 @@ html{
 
 .ref{
   color:black;
-  text-shadow: 1px 1px 5px #FF66C4;
 }
 
 .ref:hover{
-  color: white;
+  color: rgba(251, 251, 251, 0.664);
 }
 
 .link {
@@ -261,20 +289,9 @@ html{
 }
 
 .link:hover {
-	color: #FF66C4;
-  filter: drop-shadow(0 0 0.4em #FF66C4);
+	color: white;
+  filter: drop-shadow(0 0 0.4em black);
 }
-
-.link2 {
-  color: black;
-
-}
-
-.link2:hover {
-  color: #6C38D0;
-  filter: drop-shadow(0 0 0.4em #6C38D0);
-}
-
 
 .linkAC {
   color: white;
@@ -282,19 +299,10 @@ html{
 }
 
 .linkAC:hover {
-  color: #FF66C4;
+  color: white;
   filter: drop-shadow(0 0 0.4em #FF66C4);
 }
 
-.link2AC {
-  color: white;
-
-}
-
-.link2AC:hover {
-  color: #6C38D0;
-  filter: drop-shadow(0 0 0.4em #6C38D0);
-}
 
 #textoAC{
 	color: white;
@@ -336,7 +344,7 @@ html{
 #disque{
 	top:5px;
 	position: absolute;
-	top: 3320px;
+	top: 3180px;
 	left: 562px;
 	bottom: 100px;
 	filter: drop-shadow(0 0 0.4em white);
@@ -370,7 +378,7 @@ html{
  margin: 0;
  width: 1.8rem;
  height: 3rem;
- background: #6C38D0;
+ background: #6d38d000;
  border-radius: 1.625rem;
 }
 
@@ -381,7 +389,7 @@ html{
  margin: 0;
  width: 1.8rem;
  height: 3rem;
- background: #FF66C4;
+ background: white;
  border-radius: 1.625rem;
 }
 
@@ -410,8 +418,8 @@ html{
  right: 0.0625rem;
  width: 0.625rem;
  height: 0.625rem;
- border-top: 0.125rem solid #fff;
- border-right: 0.125rem solid #fff;
+ border-top: 0.125rem solid black;
+ border-right: 0.125rem solid black;
  transform: rotate(45deg);
 }
 
@@ -437,7 +445,7 @@ html{
 }
 
 #learn-more:hover .circle .icon.arrow {
- background: #fff;
+ background: black;
  transform: translate(1rem, 0);
 }
 
@@ -446,69 +454,10 @@ html{
 }
 
 
-.compartilhe {
- font-family: inherit;
- font-weight: 400;
- background: #FF66C4;
- color: white;
- padding: 0.35em 0;
- font-size: 17px;
- font-family: Arial;
- border: none;
- border-radius: 0.7em;
- letter-spacing: 0.08em;
- position: relative;
- display: flex;
- align-content: center;
- align-items: center;
- overflow: hidden;
- height: 2.1em;
- padding-left: 3em;
- padding-right: 0.7em;
 
-}
 
-.compartilhe .icon {
- background: #fff;
- margin-right: 1em;
- height: 2.2em;
- width: 2.2em;
- border-radius: 2em;
- position: absolute;
- display: flex;
- align-items: center;
- justify-content: center;
- left: 0.3em;
- transition: all .8s;
-}
 
-.shere {
- width: 1.5rem;
- height: 1.5rem;
- margin-left: 4px;
-}
 
-.compartilhe:hover .icon {
- width: calc(100% - 0.6rem);
- border-radius: 0.5em;
-}
-
-.compartilhe:hover .shere {
- width: calc(100% - 0.6rem);
- border-radius: 0.5em;
- display: none;
-}
-
-.compartilhe .icon-shere {
- color: #f2295b;
- width: 1.5rem;
- height: 1.5rem;
- display: none;
-}
-
-.compartilhe:hover .icon .icon-shere {
- display: flex;
-}
 
 .part{
   padding-right: 38px;
@@ -573,3 +522,4 @@ html{
 ::-webkit-scrollbar-thumb{
     background: #FF66C4;
     border-radius: 50px;
+}
