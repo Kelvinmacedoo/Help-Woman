@@ -1,5 +1,5 @@
-# Help Woman - Este trabalho acadêmico consiste na criação de um website que contenha as informações do projeto integrador. 
+# Help Woman - projeto proteção para mulheres 
 
-Foi confirmado que 72% das denúncias são referentes à violência doméstica e familiar contra a mulher causam diversos tipos de impactos na vida das mulheres, como lesão, sofrimentos físicos, sexuais, psicológicos ou até mesmo podendo levar à morte. Com a nova pandemia devido ao COVID-19, os casos de violência doméstica cresceram ainda mais. De acordo com o site da BBC, 1,6 milhões de mulheres foram espancadas ou sofreram tentativas de estrangulamento no Brasil, outros 22 milhões (37,1%) sofreram algum tipo de assédio.
+O projeto foi ideializado a partir de um trabalho feito em grupo e a última etapa foi a implementação do website constando o artigo a fim de exposição do mesmo.
 
-O presente trabalho propõe o desenvolvimento de um aplicativo denominado Help Woman (HW). O aplicativo deve promover uma maior segurança no chamamento de socorro às mulheres vítimas de agressão através de funções intuitivas, de fácil acesso e em especial privacidade camuflando seu ícone dentro do sistema ao instalado com a intenção de não ser identificado pelo agressor em uma situação em que ele esteja manuseando o aparelho. A proposta se junta a uma série de iniciativas que buscam criar recursos além dos meios de denúncias, para conseguir combater a violência contra a mulher em todos os lugares.
+# Link website: https://bit.ly/3wbCrLt
