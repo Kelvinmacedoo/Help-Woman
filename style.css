@@ -1,9 +1,32 @@
 .titulo{
-  font-family: cambria; 
+  font-family: cambria;
+  color: white;
   text-shadow: 1px 1px 10px #FF66C4;
   text-decoration: underline;
 }
 
+.titulo2{
+  font-family: cambria;
+  color: black;
+  text-shadow: 1px 1px 10px #FF66C4;
+  text-decoration: underline;
+}
+
+#fundoDoc{
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed, scroll;
+  background-color: rgba(128, 0, 128, 0.178);
+}
+
+#fundoIndex{
+  background-image: url(logo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed, scroll;
+  background-color: #6d38d0c1;
+}
 
 .botao-whatsapp{
   position: fixed;
@@ -290,7 +313,7 @@ html{
 
 .link:hover {
 	color: white;
-  filter: drop-shadow(0 0 0.4em black);
+  filter: drop-shadow(0 0 0.4em #6C38D0);
 }
 
 .linkAC {
@@ -299,7 +322,7 @@ html{
 }
 
 .linkAC:hover {
-  color: white;
+  color: #FF66C4;
   filter: drop-shadow(0 0 0.4em #FF66C4);
 }
 
