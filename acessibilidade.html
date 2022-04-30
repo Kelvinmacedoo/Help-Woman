@@ -72,27 +72,22 @@
 "> 
 
 <div class="vidro3">
-<div style="margin-left: 508px; color:white;">
-	<h3> <nav style="font-family: Arial;">
-	  														<a title="Sair do modo acessibilidade (Colorido)" href="projeto.html">
-															<button id="botaoAC2" style="width: 150px; height: 50px; margin-left: 650px;">
-															<strong>Sair do modo de acessibilidade</strong>
-															</button>
-															</a>
 
-															<a class="img" title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
-															<img src="ligue.png" height= "90" width="150"; align="left" style="
-															top:500px;
-															position: absolute;
-															top: 0px;
-															left: 40px;
-															box-shadow: 1px 1px 15px #FF66C4;
-															">
-															</a>
+	<div class="ligue2">
+		<a id="img" title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
+		<img src="ligue.png" height= "90" width="150"; align="left" >
+		</a>
+	</div>
 
+	<a title="Sair do modo acessibilidade (Colorido)" href="projeto.html">
+		<button id="botaoAC">
+		<strong>Sair do modo de acessibilidade</strong>
+		</button>
+	</a>
 
-
-			<strong style="text-shadow: 1px 1px 1px darkgray; margin-left: 90px;">Sumário do artigo:</strong>
+	<nav class="sum">
+		<h3> 
+			<strong style="color: white ;text-shadow: 1px 1px 1px darkgray; margin-left: 90px;"> Sumário do artigo:</strong>
 		  	<ol class="linkAC" type="I">
 		    <li><a class="linkAC"  href="#1">Visão Geral e Análise de Funcionalidades </a></li>
 		    <li><a class="linkAC"  href="#2">Arquitetura do Aplicativo </a></li>
@@ -103,12 +98,12 @@
 		</nav>
 	</h3>
 
-</div>
+
 
 
 <br>	
 
-<div class="part" id="textoAC" style=" padding-right: 38px; text-align: center;">
+<div class="part" id="textoAC">
 <h3  style="font-family: Arial"> 
 	  <p> Orientadora: Professora Mestre Sirley Ambrosia Vitorio Oliveira
 			<br>Universidade de Santo Amaro - UNISA
@@ -116,45 +111,47 @@
 
 <br>
 
-<div style="padding-left:90px; padding-right: 90px;">
+
 <h4 id="1" style="font-family: Arial">
 	1. VISÃO GERAL SOBRE A PLATAFORMA HELP-WOMAN - ANÁLISE DE FUNCIONALIDADES <br> <p>
 	Com o intuito de identificar funcionalidades que apresentem um maior impacto ou eficiência no processo de denúncia e combate a atos de violência contra a mulher se realizou uma pesquisa objetiva sobre um determinado grupo de pessoas. A pesquisa realizada alcançou um total de 100 pessoas (homens e mulheres). <br> <p></p>
 
 	A pesquisa aplicada para este trabalho, a qual constou de 15 perguntas objetivas, foi disponibilizada através de um formulário online, o qual foi elaborado utilizado a ferramenta Google Forms e ficou acessível no período compreendido entre os dias do 23 ao 26 de março de 2021. A pesquisa foi direcionada para o público feminino vítima ou não, de violência doméstica ou que já testemunharam alguma forma de violência e aberta também para homens. A pesquisa deixou como opção declarar ou não o sexo, o resultado foi que 40% dos 100 entrevistados se identificaram como mulheres, 16,6% como homens e 43,33% optaram por não identificar o seu sexo, todos responderam a 100% das perguntas apresentadas. <br> <p></p> No gráfico da figura 1 é possível observar alguns resultados da pesquisa de estudos. É possível ver a porcentagem final de cada resultado com suas respectivas perguntas. <p></p>
 </h4>
-</div>
+
 
 <table align="center" style=" font-family: Arial">
 	<tr align="center">
-		<td> <img class="img" title="Pesquisa" src="grafico1.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> ⇧ Figura 1 ⇧ </strong> </legend> </td>
+		<td> <img class="pesquisa" title="Pesquisa" src="grafico1.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> ⇧ Figura 1 ⇧</strong> </legend> </td>
 	</tr>
 </table>
 
-<h4 align="center" style="font-family: Arial; padding-left:90px; padding-right: 90px;">
+<div style="font-family: Arial;">
+<h4 align="center">
 	Nos resultados do gráfico (figura 1) é possível observar, concluir que 63.3% das pessoas não têm esperanças de que a <br>violência contra a mulher irá diminuir futuramente. E 36.7% acreditam que haverá uma diminuição nos casos de violência. </h4>
 
-<div style="padding-left:90px; padding-right: 90px;">
-<h4 id="2" style="font-family: Arial">
+
+
+<h4 id="2">
 	2. ARQUITETURA DO APLICATIVO HELP-WOMAN <br> <p></p>
 	A arquitetura do aplicativo Help Woman é representada em quatro camadas amplamente funcionais e que contribuem para uma melhor organização do código e consequentemente das funcionalidades do aplicativo. Uma representação simplificada da arquitetura é apresentada na figura 2.
 </h4>
-</div>
+
 
 <table align="center" style="font-family: Arial">
 	<tr align="center">
-		<td> <img class="img" title="Arquitetura da aplicação" src="arquitetura.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> ⇧ Figura 2 ⇧</strong> </legend> </td>
+		<td> <img class="arquitetura" title="Arquitetura da aplicação" src="arquitetura.png" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> <legend> <strong style="text-shadow: 1px 1px 1px darkgray;"> ⇧ Figura 2 ⇧</strong> </legend> </td>
 	</tr>
 </table>
 
-<h4 align="center" style="font-family: Arial; padding-left:90px; padding-right: 90px;">
+<h4 align="center" id="textoAC">
 	O Help Woman é um aplicativo baseado na discrição e segurança do usuário, desenvolvido na linguagem Java<br> em sua primeira versão e exclusivo para dispositivos móveis com o sistema Android.
 	A camada de dados é composta por um banco de dados SQLite, <br>a escolha se deve ao seu bom desempenho em aplicações para dispositivos móveis.
 	Na camada 2 de comunicação com a API de localização para que <br>a vítima seja achada com facilidade e agilidade.	
 	A camada 3 é composta pelo Serviço responsável por gerir e validar o acesso a seu menu principal e suas funções principais.
 </h4>
 
-<h4 id="3" style="font-family: Arial; padding-left:90px; padding-right: 90px;">
+<h4 id="3" >
 	3.	FUNCIONALIDADES DO HELP-WOMAN <br> <p></p>
 	Considerando os diversos aplicativos existentes a proposta de desenvolvimento do aplicativo Help Woman procura se diferenciar de outros aplicativos através de funções que incluem aspectos de segurança como, cadastro modo anônimo, SMS para contato de confiança, ligação direta para polícia, telefones uteis para denúncia e que permitam a denúncia de forma discreta e eficaz sem expor a vítima e facilitem o dia a dia destas mulheres. Blog de relatos, como um espaço no qual as vítimas possam compartilhas suas histórias de maneira aberta ou anônima. As funcionalidades são baseadas em recursos interativos que facilitam a usabilidade do seu público para obter um maior engajamento. Uma versão web está em análise para se ser implementada, porém as funcionalidades não serão as mesmas. O aplicativo é dividido em três módulos; Cadastro, Segurança e Alertas. <br> <p></p>
 
@@ -166,16 +163,16 @@
 
 <table id="telas" align="center" border="0" style="font-family: Arial">
 	<tr>
-		<td> <img src="tela_inicial.png" title="Tela de loading" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> </td>
-		<td> <img src="menu.png" title="Tela principal" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> </td>
-		<td> <img src="discagem.png" title="redirecionamento para app de telefone do smartphone" style="filter: drop-shadow(0 0 0.4em #FF66C4);">
+		<td> <img class="tela1" src="tela_inicial.png" title="Tela de loading" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> </td>
+		<td> <img class="tela2" src="menu.png" title="Tela principal" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> </td>
+		<td> <img class="tela3" src="discagem.png" title="redirecionamento para app de telefone do smartphone" style="filter: drop-shadow(0 0 0.4em #FF66C4);"> </td>
 	</tr>
 
-	<tr>  <td align="center" colspan="3"> <strong> Figura 3 </strong> </td>  </tr>
+	<tr>  <td align="center" colspan="3"> <strong style="text-shadow: 1px 1px 1px darkgray;"> Figura 3 </strong> </td>  </tr>
 
 	<tr align="center">
-		<td> <strong> ⇧ Tela Inicial ⇧ <i>(loading)</i> </strong> </td>
-		<td> <strong> ⇧ Menu Principal ⇧ </strong> </td>
+		<td> <strong> ⇧  Tela Inicial <i>(loading)</i> ⇧ </strong> </td>
+		<td> <strong> ⇧  Menu Principal ⇧ </strong> </td>
 		<td> <strong> ⇧ Tela de Discagem ⇧ </strong> </td>
 	</tr>
 </table>
@@ -187,10 +184,11 @@
 </span>
 </div>
 
+</div>
 <details id="4">
-	<summary style="color: white; font-family: Arial; padding-left:90px; padding-right: 90px; text-shadow: 1px 1px 10px white;"> <h3> 4. Referências Bibliográficas ⇩ </h3> </summary> 
+	<summary class="bibliografia" style="color: white;"> <h3> 4. Referências Bibliográficas ⇩</h3> </summary>
 	<cite>
-<h3 style="padding-left:90px; padding-right: 90px;">
+<h3 id="links">
 	<a class="linkAC" href="https://www.gov.br/mdh/pt-br" target="_blank">
 	[1]	Denúncias sobre violência feminina - Disponível em: e-gov.br/mmddh. https://www.gov.br/mdh/pt-br. <br> Acessado em: 09 de Março de 2021 </a> <br> <p></p>
 	<a class="linkAC" href="https://www.gov.br/mdh/pt-br/ondh/painel-de-dados/de-jul-2020-a-dez-2021" target="_blank">
@@ -207,11 +205,10 @@
 	</cite>
 
 <a title="Visite o IMP (Instituto Maria da Penha)" href="https://www.institutomariadapenha.org.br/lei-11340/resumo-da-lei-maria-da-penha.html" target="_blank">
-<img id="disque" src="disque.png" height= "150" width="220"; align="left" > 
+<img class="denunciaAC" src="disque.png" height= "150" width="220";> 
 </a>
-
-
 </details>
+
 
 <h4>.</h4>
 
