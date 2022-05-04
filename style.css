@@ -570,6 +570,31 @@ html {
 }
 
 /**********************************************************/
+@media screen and (max-width: 1290px) {
+  .denuncia {
+    top: 755px;
+    left: 510px;
+  }
+
+   #learn-more {
+    margin-left: 520px;
+    bottom: 10px;
+  }
+
+   #botaoAC {
+    margin-left: 1089px;
+  }
+
+   .sum {
+    margin-left: 450px;
+  }
+
+  .denuncia2 {
+    margin-top: 10px;
+    margin-left: 450px;
+  }
+}
+
 @media screen and (max-width: 764px) {
   .td {
     padding-right: 10px;
